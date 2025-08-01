@@ -15,4 +15,4 @@ COPY . .
 RUN mvn clean package -DskipTests
 
 # Run the app
-CMD ["java", "-jar", "target/orderservice-0.0.1-SNAPSHOT.jar"]
+CMD ["java", "-jar", "target/order-service-0.0.1-SNAPSHOT.jar"]
